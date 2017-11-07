@@ -134,6 +134,7 @@ export class EventReplayer {
       // now add the client view
       clientView.style.display = display;
       clientView.style.position = 'absolute';
+      clientView.style.width = '100%';
     } catch (ex) {
       console.error(ex);
     }

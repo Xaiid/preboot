@@ -101,6 +101,7 @@ export interface Element {
     display?: string;
     float?: string;
     position?: string;
+    width?: string;
   };
   parentNode?: Element;
   childNodes?: Element[];
