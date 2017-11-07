@@ -100,6 +100,7 @@ export interface Element {
   style?: {
     display?: string;
     float?: string;
+    position?: string;
   };
   parentNode?: Element;
   childNodes?: Element[];
