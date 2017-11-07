@@ -34,7 +34,6 @@ test/coverage
 
 /bower_components/
 /web_modules/
-/dist
 
 # Typings
 /typings/main
