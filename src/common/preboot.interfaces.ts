@@ -99,6 +99,7 @@ export interface Element {
   selection?: any;
   style?: {
     display?: string;
+    float?: string;
   };
   parentNode?: Element;
   childNodes?: Element[];
