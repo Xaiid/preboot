@@ -129,7 +129,7 @@ export class EventReplayer {
           .getPropertyValue('display') || 'block';
 
       // first remove the server view
-      serverView.remove ? serverView.remove() : (serverView.style.display = 'none');
+      serverView.remove ? serverView.remove() : (serverView.style.display = 'none !important');
 
       // now add the client view
       clientView.style.display = display;
@@ -160,7 +160,7 @@ export class EventReplayer {
     // remove the freeze overlay if it exists
     const prebootOverlay = this.getWindow().document.body.querySelector('#prebootOverlay');
     if (prebootOverlay) {
-      prebootOverlay.remove ? prebootOverlay.remove() : (prebootOverlay.style.display = 'none');
+      prebootOverlay.remove ? prebootOverlay.remove() : (prebootOverlay.style.display = 'none !important');
     }
 
     // clear out the data stored for each app
