@@ -319,7 +319,7 @@ export function createBuffer(root: ServerClientRoot): Element {
   if (rootClientNode) {
     // we want the client to write to a hidden div until the time for switching
     // the buffers
-    rootClientNode.style.display = 'none';
+    rootClientNode.style.display = 'none !important';
 
     // insert the client node before the server and return it
     serverNode.parentNode.insertBefore(rootClientNode, serverNode);
