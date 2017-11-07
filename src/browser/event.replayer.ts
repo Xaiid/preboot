@@ -133,6 +133,7 @@ export class EventReplayer {
 
       // now add the client view
       clientView.style.display = display;
+      clientView.style.float = 'none';
     } catch (ex) {
       console.error(ex);
     }

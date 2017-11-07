@@ -219,7 +219,7 @@ function createBuffer(root) {
         // the buffers
         rootClientNode.style.display = 'none';
         rootClientNode.style.float = 'left';
-        // insert the client node before the server and return it
+        // insert the client float before the server and return it
         serverNode.parentNode.insertBefore(rootClientNode, serverNode);
     }
     // return the rootClientNode
