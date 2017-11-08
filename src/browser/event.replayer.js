@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var common_1 = require("../common");
+var common_1 = require("../common/index");
 var EventReplayer = /** @class */ (function () {
     function EventReplayer() {
         this.clientNodeCache = {};
