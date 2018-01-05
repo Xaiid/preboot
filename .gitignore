@@ -6,10 +6,25 @@ logs
 .DS_Store
 **/.DS_Store
 
-# Runtime data
-pids
-*.pid
-*.seed
+package-lock.json
+
+dist/
+node_modules/
+out-tsc/
+debug.log
+npm-debug.log
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+utils/**/*.js
+utils/**/*.js.map
+utils/**/*.d.ts
+integration/src/**/*.js
+integration/e2e/**/*.js
+integration/**/*.js.map
+integration/**/*.d.ts
+*.metadata.json
+*.ngsummary.json
 
 typings
 
